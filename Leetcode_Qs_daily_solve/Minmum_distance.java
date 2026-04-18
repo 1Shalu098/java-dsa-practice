@@ -22,7 +22,7 @@ Output: 0
 Explanation: nums[0] = 1 is the only value equal to target, so the answer is abs(0 - 0) = 0.
  */
  
- package Leetcode_Qs_daily_solve;
+//  package Leetcode_Qs_daily_solve;
 
 public class Minmum_distance {
      public int getMinDistance(int[] nums, int target, int start) {

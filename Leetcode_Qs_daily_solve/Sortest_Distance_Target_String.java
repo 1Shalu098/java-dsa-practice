@@ -1,8 +1,4 @@
-
-
-/*
-
-*/
+// package Leetcode_Qs_daily_solve;
 
 public class Sortest_Distance_Target_String {
     public int closestTarget(String[] words, String target, int startIndex) {
