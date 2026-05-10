@@ -28,8 +28,8 @@ Output: [[3,4,8,12],[2,11,10,16],[1,7,6,15],[5,9,13,14]]
 Explanation: The figures above represent the grid at every state.
  
 */
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.*;
 
 public class Leetcode1914 {
 
@@ -107,11 +107,11 @@ public class Leetcode1914 {
         int[][] grid1 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         int k1 = 1;
         int[][] result1 = solution.rotateGrid(grid1, k1);
-        printGrid(result1); // Output: [[4, 1, 2], [7, 5, 3], [8, 9, 6]]
+        // System.out.println(Arrays.deepToString; // Output: [[4, 1, 2], [7, 5, 3], [8, 9, 6]]
 
         int[][] grid2 = {{40, 10}, {30, 20}};
         int k2 = 2;
         int[][] result2 = solution.rotateGrid(grid2, k2);
-        printGrid(result2); // Output: [[30, 40], [20, 10]]
+        // System.out.println(Arrays.deepToString(result2)); // Output: [[30, 40], [20, 10]]
     }
 }
